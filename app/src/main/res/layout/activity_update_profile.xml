@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile">
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/cantarell_bold"
+        android:text="Change or Edit your Information "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:paddingLeft="50dp"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="20sp" />
+<EditText
+    android:id="@+id/updateName"
+    android:layout_width="318dp"
+    android:paddingLeft="30dp"
+    android:layout_height="45dp"
+    android:layout_below="@+id/tv6"
+    android:background="@drawable/et_bg"
+    android:layout_marginTop="5dp"
+    android:layout_centerHorizontal="true"
+    android:fontFamily="@font/cantarell_bold"
+    />
+    <TextView
+        android:id="@+id/tv7"
+        android:text="Phone Number"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/updateName"
+        android:layout_width="wrap_content"
+        android:paddingLeft="50dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantarell_bold"
+        />
+    <EditText
+        android:id="@+id/updatePhone"
+        android:layout_width="318dp"
+        android:paddingLeft="30dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tv7"
+        android:background="@drawable/et_bg"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cantarell_bold"
+        />
+    <TextView
+        android:id="@+id/tv8"
+        android:text="Emergency Contacts"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/updatePhone"
+        android:layout_width="wrap_content"
+        android:paddingLeft="50dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantarell_bold"
+        />
+    <EditText
+        android:id="@+id/updateContact1"
+        android:layout_width="318dp"
+        android:layout_height="45sp"
+        android:paddingLeft="30dp"
+        android:layout_below="@+id/tv8"
+        android:background="@drawable/et_bg"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cantarell_bold"/>
+    <EditText
+        android:id="@+id/updateContact2"
+        android:layout_width="318dp"
+        android:layout_height="45sp"
+        android:layout_below="@+id/updateContact1"
+        android:background="@drawable/et_bg"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cantarell_bold"/>
+
+    <EditText
+        android:id="@+id/updateContact3"
+        android:layout_width="318dp"
+        android:layout_height="45sp"
+        android:layout_below="@+id/updateContact2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/cantarell_bold"
+        android:paddingLeft="30dp" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:layout_below="@+id/updateContact3"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cantarell_bold"
+        />
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:text="Create a new account !"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EmailSignup"
+        android:background="@drawable/et_bg"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:layout_below="@+id/tv"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/cantarell_bold"
+        android:hint="E-mail"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/PasswordSignup"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/cantarell_bold"
+        android:ems="10"
+        android:layout_below="@+id/EmailSignup"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/ConfirmPasswordSignup"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:background="@drawable/et_bg"
+        android:ems="10"
+        android:layout_below="@+id/PasswordSignup"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/ConfirmPasswordSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/cantarell_bold"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backtoLogin"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/signUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/cantarell_bold"
+        android:text="Back to Login"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

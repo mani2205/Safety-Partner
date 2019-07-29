@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LocationShare"
+    tools:showIn="@layout/app_bar_location_share">
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="308dp"
+        android:layout_height="73dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/red_bg"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Help me !"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/orangeButton"
+        android:layout_width="311dp"
+        android:layout_height="73sp"
+        android:layout_below="@+id/redButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/orange_bg"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Call me !"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="311dp"
+        android:layout_height="73sp"
+        android:layout_below="@+id/orangeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/yellow_bg"
+        android:fontFamily="@font/black_ops_one"
+        android:text="Just inform !"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note :"
+        android:layout_below="@id/greenButton"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/cantarell_bold"
+        android:paddingLeft="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="15sp"
+        android:paddingLeft="40dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/cantarell_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FD052A"
+        android:text="Help me! Button send an emergency message and your current location" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_below="@id/textView3"
+        android:fontFamily="@font/cantarell_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:paddingLeft="40dp"
+        android:textSize="18sp"
+        android:textColor="#FF9800"
+        android:text="Call me ! Button send a message 'I'm in emergency please call me or Text me !'" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="15sp"
+        android:fontFamily="@font/cantarell_bold"
+        android:paddingLeft="40dp"
+        android:textSize="18sp"
+        android:textColor="#59D600"
+        android:text="Just inform ! Button send a message 'I'm just update my status !'" />
+    />
+</RelativeLayout>

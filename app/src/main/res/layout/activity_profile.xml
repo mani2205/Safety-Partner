@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/cantarell_bold"
+        android:layout_height="wrap_content"
+        android:text="Your Information "
+        />
+
+    <TextView
+        android:id="@+id/NameTV"
+        android:layout_below="@+id/textView2"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/PhoneTv"
+        android:layout_below="@id/NameTV"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantarell_bold"
+        android:text="Phone No" />
+
+    <TextView
+        android:id="@+id/EmailTv"
+        android:textSize="20sp"
+        android:layout_below="@+id/PhoneTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+    <TextView
+        android:id="@+id/contact1Tv"
+        android:textSize="20sp"
+        android:layout_below="@+id/EmailTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:layout_height="wrap_content"
+        android:text="Contact 1" />
+
+    <TextView
+    android:id="@+id/contact2TV"
+    android:textSize="20sp"
+    android:layout_below="@+id/contact1Tv"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:paddingLeft="20dp"
+    android:fontFamily="@font/cantarell_bold"
+    android:layout_height="wrap_content"
+    android:text="Contact 2" />
+
+    <TextView
+    android:id="@+id/contact3Tv"
+    android:textSize="20sp"
+    android:layout_below="@+id/contact2TV"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:paddingLeft="20dp"
+    android:fontFamily="@font/cantarell_bold"
+    android:layout_height="wrap_content"
+    android:text="Contact 3" />
+
+    <TextView
+        android:id="@+id/EditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact3Tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/cantarell_bold"
+        android:padding="8dp"
+        android:text="Edit your Information"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/cantarell_bold"
+        android:textColor="#FFF"
+        android:padding="8dp"
+        android:text="Go back"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</RelativeLayout>

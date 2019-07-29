@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "846254586382",
+    "firebase_url": "https://saftypartner-96abc.firebaseio.com",
+    "project_id": "saftypartner-96abc",
+    "storage_bucket": "saftypartner-96abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846254586382:android:884290c2de9e2fcf",
+        "android_client_info": {
+          "package_name": "com.example.saftypartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846254586382-nc92d302gbgmt7b69ieeaso3qrjnd20i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saftypartner",
+            "certificate_hash": "fd73a6e9dd57a69c6f618a6e794cab1e34e1883b"
+          }
+        },
+        {
+          "client_id": "846254586382-br05levhshfv9g3orj30ov6t6s88h61q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl1qj3YTnjcZcQfQtRMHfwCl7KfDhShVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846254586382-br05levhshfv9g3orj30ov6t6s88h61q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anonymous_pro_bold</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/cantarell_bold</item>
+        <item>@font/cantora_one</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_condensed_bold</item>
+        <item>@font/roboto_mono_italic</item>
+        <item>@font/roboto_thin</item>
+    </array>
+</resources>
